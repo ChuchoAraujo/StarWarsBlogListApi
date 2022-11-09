@@ -1,3 +1,148 @@
-/* 
-    General Styles
-*/
+
+/************GENERAL STYLES**************/
+.containerCard {
+    background-color: black;
+}
+
+/************ICONS Y LOGOS**************/
+.logoStarWars {
+    opacity: 0.6;
+    width: 200px;
+}
+
+.iconos {
+    color:aliceblue;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.iconHeart {
+    font-size: 15px;
+}
+
+.iconHeart:hover {
+    font-size: 20px;
+}
+
+.iconTrash{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.iconTrash:hover {
+    font-size: 22px;
+}
+/************BUTTONS**************/
+
+.buttonLike {
+    width: 40px;
+    background-color: whitesmoke;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.buttonLikeRead {
+    width: 100px;
+    background-color: whitesmoke;
+    opacity: 0.7;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttonFavorites {
+    width: 130px;
+    padding: 10px;
+    background-color: whitesmoke;
+    opacity: 0.7;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttonFavorites:hover {
+    opacity: 1;
+    background-color: #E8AA5F;
+}
+
+.buttonLikeRead:hover {
+    background-color: #E8AA5F;
+    opacity: 1;
+}
+
+.buttonLike:hover {
+    opacity: 1;
+    background-color: #E8AA5F;
+}
+
+.cajaFavoritos {
+    background-color: whitesmoke;
+    opacity: 0.7;
+}
+.carrito {
+    background-color:aliceblue;
+    opacity: 0.7;
+}
+
+/************CARDS**************/
+img {
+    border-radius: 30px;
+}
+
+.card {
+    border-radius: 30px;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1504333638930-c8787321eee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+}
+
+.cardBody {
+    background-color: black;
+    opacity: 0.75;
+    border-radius: 30px;
+    border: none;
+    
+}
+
+.tituloPagina {
+    margin: 50px;
+    padding: 10px;
+    background-color: black;
+    opacity: 0.60;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.imageSingle {
+    opacity: .80;
+    width: 300px;
+
+}
+
+.cardAll:hover {
+    opacity: 1;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.vinculo {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.cardAllPlanets:hover {
+    background-color: #52144A;
+    opacity: 0.7;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+/************FOOTER**************/
+.footer {
+    margin: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}

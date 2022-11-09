@@ -12,9 +12,15 @@ const getState = ({ getStore, getActions, setStore }) => {
 					background: "white",
 					initial: "white"
 				}
-			]
+			],
+			dataImgCharacters: []
 		},
 		actions: {
+			getImgCharacters: (url) => {
+				fetch(url)
+				.then(resp => resp.json())
+				.then(data => setStore({"dataImgCharacters": data}))
+			},
 			// Use getActions to call a function within a fuction
 			exampleFunction: () => {
 				getActions().changeColor(0, "green");
